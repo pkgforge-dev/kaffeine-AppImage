@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/kaffeine.svg
 export DESKTOP=/usr/share/applications/org.kde.kaffeine.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/kaffeine
+quick-sharun /usr/bin/kaffeine /usr/lib/vlc
 
 # Additional changes can be done in between here
 
