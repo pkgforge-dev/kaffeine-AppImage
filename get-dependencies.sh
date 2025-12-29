@@ -6,7 +6,18 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm kaffeine kvantum-qt5 qt5ct qt5-wayland
+pacman -Syu --noconfirm \
+	kaffeine          \
+	kvantum-qt5       \
+	qt5ct             \
+	qt5-wayland       \
+	vlc-plugin-aalib  \
+	vlc-plugin-aom    \
+	vlc-plugin-avahi  \
+	vlc-plugin-bluray \
+	vlc-plugin-caca   \
+	vlc-plugin-dvd    \
+	vlc-plugin-ffmpeg
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
