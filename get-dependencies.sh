@@ -9,6 +9,8 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	kaffeine          \
 	kvantum-qt5       \
+	pipewire-audio    \
+	pipewire-jack     \
 	qt5ct             \
 	qt5-wayland       \
 	vlc-plugin-aalib  \
