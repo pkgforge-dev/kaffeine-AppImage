@@ -15,6 +15,7 @@ pacman -Syu --noconfirm \
 	qt5-wayland       \
 	vlc-plugin-aalib  \
 	vlc-plugin-aom    \
+	vlc-plugin-ass    \
 	vlc-plugin-avahi  \
 	vlc-plugin-bluray \
 	vlc-plugin-caca   \
