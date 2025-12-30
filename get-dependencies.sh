@@ -22,6 +22,7 @@ pacman -Syu --noconfirm \
 	vlc-plugin-dvd      \
 	vlc-plugin-ffmpeg   \
 	vlc-plugin-freetype \
+	vlc-plugin-pulse    \
 	vlc-plugin-srt      \
 	vlc-plugin-matroska
 
