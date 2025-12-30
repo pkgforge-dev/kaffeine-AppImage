@@ -23,7 +23,7 @@ pacman -Syu --noconfirm \
 	vlc-plugin-ffmpeg   \
 	vlc-plugin-freetype \
 	vlc-plugin-srt      \
-	vlc-plugin-svg
+	vlc-plugin-matroska
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
