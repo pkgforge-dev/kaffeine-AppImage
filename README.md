@@ -11,6 +11,14 @@ AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it
 
 **This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
 
+It is possible that this appimage may fail to work with appimagelauncher, I recommend these alternatives instead: 
+
+* [AM](https://github.com/ivan-hc/AM) `am -i kaffeine` or `appman -i kaffeine`
+
+* [dbin](https://github.com/xplshn/dbin) `dbin install kaffeine.appimage`
+
+* [soar](https://github.com/pkgforge/soar) `soar install kaffeine`
+
 This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
 
 More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
